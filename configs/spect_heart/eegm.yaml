@@ -1,0 +1,12 @@
+num_runs: 20
+num_epochs: 5000
+learning_rate: 0.0001
+loss_name: EEGM
+regularizer: null
+sigma: 0.008
+weight_decay: 0.0
+dataset_name: spect_heart
+dataset_path: ./data/spect_heart
+split_ratio: 0.7
+num_features: 22
+experiment_name: spect_heart_eegm

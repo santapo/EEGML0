@@ -1,0 +1,12 @@
+num_runs: 20
+num_epochs: 15000
+learning_rate: 0.0001
+loss_name: EEGM
+regularizer: null
+sigma: 0.008
+weight_decay: 0.0
+dataset_name: divorce
+dataset_path: ./data/divorce
+split_ratio: 0.7
+num_features: 54
+experiment_name: divorce_eegm
