@@ -1,0 +1,12 @@
+num_runs: 20
+num_epochs: 15000
+learning_rate: 0.0001
+loss_name: EEGM
+regularizer: regularizer_2
+sigma: 0.008
+weight_decay: 0.0001
+dataset_name: somerville
+dataset_path: ./data/somerville
+split_ratio: 0.7
+num_features: 6
+experiment_name: somerville_eegml0_reg2

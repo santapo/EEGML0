@@ -1,0 +1,12 @@
+num_runs: 20
+num_epochs: 15000
+learning_rate: 0.001
+loss_name: EEGM
+regularizer: regularizer_4
+sigma: 0.008
+weight_decay: 0.0001
+dataset_name: breast_cancer
+dataset_path: ./data/breast_cancer
+split_ratio: 0.7
+num_features: 9
+experiment_name: breast_cancer_eegml0_reg4

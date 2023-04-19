@@ -1,0 +1,12 @@
+num_runs: 20
+num_epochs: 15000
+learning_rate: 0.0001
+loss_name: EEGM
+regularizer: regularizer_3
+sigma: 0.008
+weight_decay: 0.0001
+dataset_name: coffee
+dataset_path: ./data/coffee
+split_ratio: 0.7
+num_features: 286
+experiment_name: coffee_eegml0_reg3
